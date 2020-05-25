@@ -1,6 +1,6 @@
 body{
-	margin: 0;
-	padding: 10px;
+	margin: 0px;
+	padding: 10px 10px 10px 10px;
 }
 h1{
 	text-align: center;
@@ -8,7 +8,7 @@ h1{
 .box1{
 	margin: 10px;
 	background-color: gray;
-	padding: 23px 5px 0px 5px;
+	padding: 23px 5px 0px 10px;
 	border: 1px solid black;
 	width: 30%; 
 	box-sizing: border-box;
@@ -67,4 +67,144 @@ h1{
 	position: absolute;
 	top: 0px;
 	right:0px;
+}
+@media (max-width: 991px ) and (min-width: 768px) 
+{
+	body{
+	margin: 0px;
+	padding: 10px 10px 10px 10px;
+}
+	.box1{
+	margin: 10px;
+	background-color: gray;
+	padding: 23px 5px 0px 10px;
+	border: 1px solid black;
+	width: 40%; 
+	box-sizing: border-box;
+	height: 200px;
+	float: left;
+	clear: right;
+	position: relative;
+	clear: both;
+}
+	.box4{
+	background-color: green;
+	height: 20px;
+	width:20%;
+	border: 1px solid black;
+	position: absolute;
+	top: 0px;
+	right:0px;
+}
+
+.box2{
+	margin: 10px;
+	float: left;
+	background-color: gray;
+	padding: 23px 5px 0px 5px;
+	border: 1px solid black;
+	width: 40%; 
+	box-sizing: border-box;
+	height: 200px;
+	position: relative;
+}
+.box5{
+	background-color: green;
+	height: 20px;
+	width:20%;
+	border: 1px solid black;
+	position: absolute;
+	top: 0px;
+	right:0px;
+}
+.box3{
+	margin: 10px;
+	float: left;
+	background-color: gray;
+	padding: 23px 5px 0px 5px;
+	border: 1px solid black;
+	width: 83%; 
+	box-sizing: border-box;
+	height: 200px;
+	position: relative;
+}
+.box6{
+	background-color: green;
+	height: 20px;
+	width:20%;
+	border: 1px solid black;
+	position: absolute;
+	top: 0px;
+	right:0px;
+}
+}
+@media (max-width: 767px ) 
+{
+	body{
+	margin: 0px;
+	padding: 10px 10px 10px 10px;
+}
+	.box1{
+	margin: 10px;
+	background-color: gray;
+	padding: 23px 5px 0px 10px;
+	border: 1px solid black;
+	width: 100%; 
+	box-sizing: border-box;
+	height: 200px;
+	float: left;
+	clear: right;
+	position: relative;
+	clear: both;
+}
+	.box4{
+	background-color: green;
+	height: 20px;
+	width:20%;
+	border: 1px solid black;
+	position: absolute;
+	top: 0px;
+	right:0px;
+}
+
+.box2{
+	margin: 10px;
+	float: left;
+	background-color: gray;
+	padding: 23px 5px 0px 5px;
+	border: 1px solid black;
+	width: 100%; 
+	box-sizing: border-box;
+	height: 200px;
+	position: relative;
+}
+.box5{
+	background-color: green;
+	height: 20px;
+	width:20%;
+	border: 1px solid black;
+	position: absolute;
+	top: 0px;
+	right:0px;
+}
+.box3{
+	margin: 10px;
+	float: left;
+	background-color: gray;
+	padding: 23px 5px 0px 5px;
+	border: 1px solid black;
+	width: 100%; 
+	box-sizing: border-box;
+	height: 200px;
+	position: relative;
+}
+.box6{
+	background-color: green;
+	height: 20px;
+	width:20%;
+	border: 1px solid black;
+	position: absolute;
+	top: 0px;
+	right:0px;
+}
 }
