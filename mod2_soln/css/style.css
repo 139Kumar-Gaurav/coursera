@@ -20,6 +20,7 @@ h1{
 	clear: right;
 	position: relative;
 	clear: both;
+	overflow: auto;
 }
 .box4{
 	background-color: pink;
@@ -36,13 +37,14 @@ h1{
 .box2{
 	margin: 10px;
 	float: left;
-	background-color: green;
+	background-color: #5F9EA0;
 	padding: 30px 5px 0px 5px;
 	border: 1px solid black;
 	width: 31%; 
 	box-sizing: border-box;
 	height: 300px;
 	position: relative;
+	overflow: auto;
 }
 .box5{
 	background-color: red;
@@ -65,6 +67,7 @@ h1{
 	box-sizing: border-box;
 	height: 300px;
 	position: relative;
+	overflow: auto;
 }
 .box6{
 	background-color: yellow;
@@ -95,6 +98,8 @@ h1{
 	clear: right;
 	position: relative;
 	clear: both;
+	font-size: 80%;
+	overflow: auto;
 }
 	.box4{
 	background-color: pink;
@@ -111,13 +116,15 @@ h1{
 .box2{
 	margin: 10px;
 	float: left;
-	background-color: green;
+	background-color: #5F9EA0;
 	padding: 23px 5px 0px 5px;
 	border: 1px solid black;
 	width: 40%; 
 	box-sizing: border-box;
 	height: 200px;
 	position: relative;
+	font-size: 80%;
+	overflow: auto;
 }
 .box5{
 	background-color: red;
@@ -140,6 +147,8 @@ h1{
 	box-sizing: border-box;
 	height: 200px;
 	position: relative;
+	font-size: 80%;
+	overflow: auto;
 }
 .box6{
 	background-color: yellow;
@@ -171,6 +180,8 @@ h1{
 	float: left;
 	position: relative;
 	clear: both;
+	font-size: 80%;
+	overflow: auto;
 }
 	.box4{
 	background-color: pink;
@@ -188,13 +199,15 @@ h1{
 	/*margin: 10px;
 	margin-right: 10px;1*/
 	float: left;
-	background-color: green;
+	background-color: #5F9EA0;
 	padding: 23px 5px 0px 5px;
 	border: 1px solid black;
 	width: 100%; 
 	box-sizing: border-box;
 	height: 200px;
 	position: relative;
+	font-size: 80%;
+	overflow: auto;
 }
 .box5{
 	background-color: red;
@@ -218,6 +231,8 @@ h1{
 	box-sizing: border-box;
 	height: 200px;
 	position: relative;
+	font-size: 80%;
+	overflow: auto;
 }
 .box6{
 	background-color: yellow;
